@@ -1,0 +1,26 @@
+Scanner in = new Scanner (System.in);
+    String [] palavras = new String[7];
+    for (int i=0; i<1; i++){
+        System.out.println("digite 1 palavra que vai ser usada no jogo");
+        palavras[i] = in.next();
+    }
+    String [] tentativas = new String [6];
+    for (int i = 0; i<6; i++){
+        System.out.println("digite sua letra");
+        tentativas[i]=in.next();
+        
+    }
+     if (tentativas[]==palavras[]){
+         System.out.println("está na palavra");   
+     }
+     else{
+         System.out.println("nao está");
+     }
+    
+    
+    
+    
+    
+    
+    //String [] resultado = palavras;
+    //for (int i=0; i<6; i++){
